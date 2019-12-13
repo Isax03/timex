@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="favicon.ico">
+    <title>Motel der Mysterien</title>
+</head>
+
+<body>
+    <style>
+        body {
+            margin: 0;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 20%;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        li a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+        div {
+            margin-left: 20%;
+            padding: 1px 16px;
+            height: 1000px;
+        }
+        a:hover.libro {
+            zoom: 1.5;
+        }
+        img {
+            align: center;
+            width: 174px;
+            height: 250px;
+        }
+    </style>
+
+    <ul>
+        <li><a href="https://isax03.github.io/timex/" class="active">Home</a></li>
+        <li><a href="introduzione.html">Introduzione all'archeologia</a></li>
+        <li><a href="allestimento.html">Allestimento</a></li>
+        <li><a href="motel_ing.html">Motel of the mysteries</a></li>
+        <li><a href="motel_ted.html">Motel der Mysterien</a></li>
+        <li><a href="galleria.html">Galleria foto</a></li>
+    </ul>
+    <div>
+        <h2>Motel der Mysterien</h2>
+        <h4>Du kannst hier das Buch herunterladen</h4>
+        <h4>Click das Bild</h4>
+        <a href="Motel der Mysterien.pdf" class="libro" download><img src="buch.jpg"></img></a>
+    </div>
+
+</body>
+
+</html>
